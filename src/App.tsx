@@ -1,5 +1,6 @@
 import './App.css'
 import Counter from './common/Counter/Counter'
+import ZeldaHeart from './common/ZeldaHeart/ZeldaHeart'
 // import Bienvenido from './common/Bienvenido/Bienvenido'
 
 function App() {
@@ -8,13 +9,17 @@ function App() {
     <>
       {/* <Bienvenido name="Dani" lastname="Tarazona" /> */}
       
-      <Counter />
+      {/* <Counter />
       <div>
         -----------------------------------------
       </div>
       <div>
         <Counter />
-      </div>
+      </div> */}
+
+      <ZeldaHeart input="🤍" output="💘"/>
+      <ZeldaHeart input="❌" output="⭕️"/>
+      <ZeldaHeart input="Encendido" output="Apagado"/>
       
     </>
   )
