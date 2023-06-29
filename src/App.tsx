@@ -1,11 +1,21 @@
 import './App.css'
-import Bienvenido from './common/Bienvenido/Bienvenido'
+import Counter from './common/Counter/Counter'
+// import Bienvenido from './common/Bienvenido/Bienvenido'
 
 function App() {
 
   return (
     <>
-      <Bienvenido name="Dani" lastname="Tarazona" />
+      {/* <Bienvenido name="Dani" lastname="Tarazona" /> */}
+      
+      <Counter />
+      <div>
+        -----------------------------------------
+      </div>
+      <div>
+        <Counter />
+      </div>
+      
     </>
   )
 }
