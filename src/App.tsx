@@ -1,6 +1,7 @@
 import './App.css'
 import Counter from './common/Counter/Counter'
 import ZeldaHeart from './common/ZeldaHeart/ZeldaHeart'
+import RickCharactersList from './pages/RickCharactersList/RickCharactersList'
 // import Bienvenido from './common/Bienvenido/Bienvenido'
 
 function App() {
@@ -17,9 +18,11 @@ function App() {
         <Counter />
       </div> */}
 
-      <ZeldaHeart input="🤍" output="💘"/>
-      <ZeldaHeart input="❌" output="⭕️"/>
-      <ZeldaHeart input="Encendido" output="Apagado"/>
+      {/* <ZeldaHeart input="🤍" output="💘"/> */}
+      {/* <ZeldaHeart input="❌" output="⭕️"/> */}
+      {/* <ZeldaHeart input="Encendido" output="Apagado"/> */}
+
+      <RickCharactersList />
       
     </>
   )
