@@ -5,12 +5,12 @@ interface BienvenidoText {
 	lastname?: string;
 }
 
-const Bienvenido = (props: BienvenidoText) => {
+const Bienvenido = ({ name, lastname }: BienvenidoText) => {
 	return (
 		<>
     <div className="profile">
-			<div>Nombre: {props.name}</div>
-			<div>Lastname: {props.lastname}</div>
+			<div>Nombre: { name }</div>
+			<div>Lastname: { lastname }</div>
     </div>
 		</>
 	);
